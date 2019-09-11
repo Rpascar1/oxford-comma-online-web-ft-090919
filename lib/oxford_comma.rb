@@ -1,5 +1,5 @@
 def oxford_comma(array)
   array.each do |element|
-    p element.to_s
+    p element[0]
   end
 end
