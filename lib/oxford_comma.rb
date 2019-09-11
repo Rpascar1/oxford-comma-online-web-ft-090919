@@ -1,6 +1,8 @@
 def oxford_comma(array)
-    if array[0,1]
-      [array]*","
-      
-      
+    if array.length >=2
+      [array]*", and "
+    elsif array
     end
+end
+
+p oxford_comma(array)
