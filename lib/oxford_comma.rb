@@ -4,5 +4,4 @@ def oxford_comma(array)
     elsif array
     end
 end
-
-p oxford_comma(array)
+  
