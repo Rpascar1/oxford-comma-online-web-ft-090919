@@ -1,4 +1,5 @@
 def oxford_comma(array)
-    array.each do |string|
-    [string]*"and"
+    if array
+      [array]*","
+      
     end
